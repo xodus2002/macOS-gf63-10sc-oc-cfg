@@ -1,5 +1,4 @@
-# OpenCore config for MSI GF63 Thin 10 SC
-OpenCore config for MSI GF63 Thin 10SC
+# OpenCore config for MSI GF63 Thin 10SC
 
 # Some snags that you need to know (IMPORTANT)
 Backlight sometimes is iffy on macOS install, the only "fix" is to close the lid and open it back or wait till it refreshes the screen. Bluetooth is a bit buggy so it's not added on this config.
