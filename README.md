@@ -14,7 +14,7 @@ iGPU: Intel UHD 630
 # What works and doesn't work, and partially works
 Works: WiFi, keyboard, touchpad, USB ports
 
-Doesn't work: Bluetooth, dGPU (only up to High Sierra)
+Doesn't work: Bluetooth, dGPU (only up to High Sierra), Audio (broken in Beta 2+ and final, will find a fix later)
 
 Partially works: Backlight (sometimes it does turn on, sometimes doesn't, only fix is to close the lid, then open it back up or wait till it refreshes the screen)
 
