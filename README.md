@@ -4,19 +4,15 @@
 
 ## My specs
 CPU: Intel Core i5-10300H @ 2.5GHz (turbo 4.50GHz) 4c/8t
-
 RAM: 2x16 GB DDR4 3200MHz
-
 dGPU: NVIDIA GTX 1650 Max-Q 4GB GDDR6 (obviously this won't be used)
-
 iGPU: Intel UHD 630
 
 # What works and doesn't work, and partially works
 Works: WiFi, keyboard, touchpad, USB ports
 
-Doesn't work: Bluetooth, dGPU (only up to High Sierra), Audio (broken in Beta 2+ and final, will find a fix later)
-
-Partially works: Backlight (sometimes it does turn on, sometimes doesn't, only fix is to close the lid, then open it back up or wait till it refreshes the screen)
+Doesn't work: Bluetooth, dGPU (only up to High Sierra), Audio (broken in Beta 2+ and final, use [MyKextInstaller](https://github.com/Mirone/MyKextInstaller)
+Partially works: Backlight (sometimes it does turn on, sometimes doesn't, only fix is to close the lid, then open it back up or wait till it refreshes the screen), Wi-Fi (only on the installer, on desktop you need to use [HeliPort](https://github.com/OpenIntelWireless/HeliPort) and connect to wi-fi from there
 
 # Before doing the install, disable these options in the BIOS
 ![image](https://github.com/user-attachments/assets/74ee35b7-a238-45e1-b10c-fb40278eeb60)
@@ -28,6 +24,8 @@ Partially works: Backlight (sometimes it does turn on, sometimes doesn't, only f
 * Python 3
 * A LOT of patience (atleast 1-2 hours, depending on your internet speed)
 * The BaseSystem.dmg from [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html)
+* MyKextInstaller and a copy of AppleHDA from the tutorial page of the said project
+* Ethernet cable (if the setup doesn't detect the itlwm configuration, only on the setup portion)
 * A brain
 
 1: Download my OpenCore config and copy the "EFI" folder to your USB drive. 
