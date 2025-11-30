@@ -12,7 +12,7 @@ iGPU: Intel UHD 630
 Works: WiFi, keyboard, touchpad, USB ports
 
 Doesn't work: Bluetooth, dGPU (only up to High Sierra), Audio (broken in Beta 2+ and final, use [MyKextInstaller](https://github.com/Mirone/MyKextInstaller)
-Partially works: Backlight (sometimes it does turn on, sometimes doesn't, only fix is to close the lid, then open it back up or wait till it refreshes the screen), Wi-Fi (only on the installer, on desktop you need to use [HeliPort](https://github.com/OpenIntelWireless/HeliPort) and connect to wi-fi from there
+Partially works: Backlight (sometimes it does turn on, sometimes doesn't, only fix is to close the lid, then open it back up or wait till it refreshes the screen), Wi-Fi (only on the installer, on desktop you need to use [HeliPort](https://github.com/OpenIntelWireless/HeliPort) and connect to wi-fi from there)
 
 # Before doing the install, disable these options in the BIOS
 ![image](https://github.com/user-attachments/assets/74ee35b7-a238-45e1-b10c-fb40278eeb60)
